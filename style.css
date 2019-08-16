@@ -1,0 +1,171 @@
+.player {
+    position: relative;
+    background-color: rgb(230, 238, 238);
+    width: 567px;
+    left: 5%;
+    height: 567px;
+    top: -7px;
+    border: 1px solid black;
+}
+
+.heading {
+    position: relative;
+    left: 66%;
+    width: 23%;
+    margin: 0%;
+}
+
+.poster {
+    position: relative;
+    left: 140px;
+    top: 9px;
+}
+
+body {
+    background: url("/images/EkcKSx.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.song-title {
+    top: 8px;
+    width: 300px;
+    padding: 5px 0px 5px 0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    left: 27px;
+    width: 536px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Fredoka One', cursive;
+}
+
+.next-song-title {
+    width: 300px;
+    top: 85px;
+    padding: 5px 0px 5px 0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    left: 27px;
+    width: 536px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Fredoka One', cursive;
+}
+
+.slider {
+    width: 400px;
+    position: relative;
+    left: 23px;
+}
+
+.slider {
+    position: relative;
+    top: 42px;
+    -webkit-appearance: none;
+    width: 92%;
+    height: 10px;
+    border-radius: 5px;
+    background: gray;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(49, 151, 240);
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 10px;
+    height: 20px;
+    border-radius: 40%;
+    background: blue;
+    cursor: pointer;
+}
+
+.current-time {
+    float: left;
+    font-size: 18px;
+    position: relative;
+    top: 44px;
+    left: 10px;
+}
+
+.duration {
+    float: right;
+    font-size: 18px;
+    position: relative;
+    top: 44px;
+    left: -6px;
+}
+
+.controllers {
+    clear: both;
+    display: table;
+    position: relative;
+    left: 59px;
+    top: 69px;
+}
+
+.controllers * {
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+.volume-slider {
+    width: 90px;
+    margin-left: 5px;
+}
+
+.volume-slider {
+    -webkit-appearance: none;
+    width: 20%;
+    height: 10px;
+    border-radius: 5px;
+    background: gray;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.volume-slider:hover {
+    opacity: 1;
+}
+
+.volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(49, 151, 240);
+    cursor: pointer;
+}
+
+.volume-slider::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    border-radius: 40%;
+    background: blue;
+    cursor: pointer;
+}
+
+.volume {
+    position: relative;
+    left: 396px;
+    top: 41px;
+}
